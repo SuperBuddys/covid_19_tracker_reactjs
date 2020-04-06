@@ -7,12 +7,22 @@ const Chart = () => {
         const fetchAPI = async () => {
             setDailyData(await fetchDailyData());
         }
+        console.log("dailyData ", dailyData);
         fetchAPI();
     })
 
-    const lineChart = {
-
-    }
+    const lineChart = (
+        dailyData[0]
+            ? (
+                <Line
+                    data={
+                        {
+                            labels: '',
+                            datasets: [{}, {}]
+                        }
+                    }
+                />) : null
+    )
     return (
         <h1>chart</h1>
     )
