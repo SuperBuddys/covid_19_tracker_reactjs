@@ -37,7 +37,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://SuperBuddys.github.io/covid_19_tracker_reactjs",
+  "homepage": "https://rahulmohite1727.github.io/covid_19_tracker_reactjs",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
